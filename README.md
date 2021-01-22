@@ -1,4 +1,5 @@
 # Polygon-Calculator
+
 <style>
 h1.title{
 text-align: center
@@ -10,14 +11,14 @@ text-align: justify}
 Polygon Calculator is a project developed for the Algorithmic and Programming II class at UPC.
 The objective of this program is to provide an intuitive and easy way of doing different calculus related to polygon geometry from the computer terminal. The entire of Polygon Calculator is written in C++.
 
-##Table of contents
+## Table of contents
 1. [Instalation](#instalation)
 2. [General use](#use)
 3. [Functions](#functions)
 4. [Algorithms](#algorithms)
 5. [Other information](#other)
 
-##Instalation <a name="introduction"></a>
+## Instalation <a name="introduction"></a>
 
 Polygon Calculator requires the library [pngwriter](https://github.com/pngwriter/pngwriter) to be installed. Pngwriter is a library for C++ that is used for the creation of images. It’s used here for the creation of polygons graphics.
 Install the library:
@@ -41,7 +42,7 @@ cd ..
 rm -rf pngwriter
 ```
  
-##General use <a name="use"></a>
+## General use <a name="use"></a>
 Polygon Calculator has to be used from the computer terminal. For the commands first you have to access it's folder.
 A mekefile is already created for an easy compilation.
 Makefile commands are:

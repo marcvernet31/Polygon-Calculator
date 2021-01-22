@@ -72,7 +72,7 @@ Files name’s have to be introduced in string format and with the .txt extensio
 The commands that don't need answer will output "ok" if the process is done correctly.
 
 
-##Functions <a name="functions"></a>
+## Functions <a name="functions"></a>
 
 ### `polygon` 
 ``` bash

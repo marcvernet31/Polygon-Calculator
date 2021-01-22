@@ -1,12 +1,5 @@
 # Polygon-Calculator
 
-<style>
-h1.title{
-text-align: center
-}
-body {
-text-align: justify}
-</style>
 
 Polygon Calculator is a project developed for the Algorithmic and Programming II class at UPC.
 The objective of this program is to provide an intuitive and easy way of doing different calculus related to polygon geometry from the computer terminal. The entire of Polygon Calculator is written in C++.
@@ -199,7 +192,7 @@ checkColor p1
 ```
 Returns the color of a polygon.
 
-##Algorithms <a name="algorithms"></a>
+## Algorithms <a name="algorithms"></a>
 
 The whole program is based on the implementation of the classes **Point** and **ConvexPolygon**.
 The class **Point** is defined as two doubles x and y (the x-coordinate and the y-coordinate).
@@ -211,7 +204,7 @@ The algorithm used for the convexHull function is the **Andrew's monotone chain*
 
 The intersection function works with a **Line** struct (composed of the double slope and the double y-intercept) for finding the cutting point for every pair of segments and a function that tells if a point is inside a polygon for knowing which points intersect. Finally a convex hull is created from all the found points. The cost is O(n²).
 
-##Other information <a name="other"></a>
+## Other information <a name="other"></a>
 Comments can be written with a # when starting the line.
 ```
 # This is a comment
